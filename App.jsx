@@ -7,7 +7,7 @@ import FancyCards from './components/FancyCards';
 const App = () => {
   return (
     <SafeAreaView>
-      <ScrollView>
+      <ScrollView overScrollMode='never' showsVerticalScrollIndicator={false}>
         <FlatCards />
         <EvelvatedCards />
         <FancyCards />

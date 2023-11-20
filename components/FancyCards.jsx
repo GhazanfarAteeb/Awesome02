@@ -28,24 +28,36 @@ const styles = StyleSheet.create({
         paddingHorizontal: 8
     },
     card: {
-
+        margin: 24,
+        overflow: 'hidden',
+        borderRadius: 20,
     },
     cardElevated: {
-
+        backgroundColor: "white",
+        elevation: 10,
     },
     cardImage: {
-        height: 180
+        height: 180,
     },
     cardBody: {
-
+        marginTop: 7,
+        paddingTop: 0,
+        padding: 14,
     },
     cardTitle: {
-
+        fontSize: 16,
+        color: "#000000",
+        fontWeight: 'bold',
     },
     cardLabel: {
-
+        fontSize: 10.3,
+        color: "#494949",
+        marginVertical: 2,
+        fontStyle: 'italic',
     },
     cardDescription: {
-
+        fontSize: 11,
+        textAlign: 'justify',
+        color: 'gray'
     }
 })
